@@ -1,0 +1,24 @@
+{
+  "name": "drinxologist-frontend",
+  "version": "0.1.0",
+  "description": "Frontend for drinxologist (tag-based cocktail recipe finder)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/relativeabsolute/drinxologist.git"
+  },
+  "keywords": [
+    "mongodb",
+    "cocktails",
+    "express"
+  ],
+  "author": "Johan Burke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/relativeabsolute/drinxologist/issues"
+  },
+  "homepage": "https://github.com/relativeabsolute/drinxologist#readme"
+}
