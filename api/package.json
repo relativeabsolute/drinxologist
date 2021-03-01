@@ -1,35 +1,40 @@
 {
-  "name": "drinxologist-api",
-  "version": "0.1.0",
-  "description": "API for drinxologist",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/relativeabsolute/drinxologist.git"
-  },
-  "keywords": [
-    "express",
-    "typescript",
-    "cocktails",
-    "mongodb",
-    "mongo"
-  ],
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "@types/express": "^4.17.1",
-    "@types/node": "^14.14.7",
-    "tslint": "^6.1.3",
-    "typescript": "^4.0.5"
-  },
-  "author": "Johan Burke",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/relativeabsolute/drinxologist/issues"
-  },
-  "homepage": "https://github.com/relativeabsolute/drinxologist#readme"
+    "name": "drinxologist-api",
+    "version": "0.1.0",
+    "description": "API for drinxologist",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run run-server",
+        "start-local": "npm run build:local && npm run run-server",
+        "build": "npm run build-server",
+        "build-local": "npm run build-server",
+        "build-server": "tsc",
+        "run-server": "node ./dist/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/relativeabsolute/drinxologist.git"
+    },
+    "keywords": [
+        "express",
+        "typescript",
+        "cocktails",
+        "mongodb",
+        "mongo"
+    ],
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.1",
+        "@types/node": "^14.14.7",
+        "tslint": "^6.1.3",
+        "typescript": "^4.0.5"
+    },
+    "author": "Johan Burke",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/relativeabsolute/drinxologist/issues"
+    },
+    "homepage": "https://github.com/relativeabsolute/drinxologist#readme"
 }

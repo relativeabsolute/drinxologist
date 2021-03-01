@@ -1,32 +1,32 @@
 {
-  "name": "drinxologist",
-  "version": "0.1.0",
-  "description": "Tag-based cocktail recipe finder.  Built on Angular, Express, and Mongodb",
-  "main": "index.js",
-  "scripts": {
-    "setup-deps": "concurrently \"cd ./frontend && npm i\" \"cd ./api && npm i\"",
-    "build": "cd ./api && npm run build",
-    "start": "cd ./api && npm run start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/relativeabsolute/drinxologist.git"
-  },
-  "keywords": [
-    "angular",
-    "express",
-    "mongodb",
-    "mongo",
-    "cocktails",
-    "typescript"
-  ],
-  "dependencies": {
-    "concurrently": "^6.0.0"
-  },
-  "author": "Johan Burke",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/relativeabsolute/drinxologist/issues"
-  },
-  "homepage": "https://github.com/relativeabsolute/drinxologist#readme"
+    "name": "drinxologist",
+    "version": "0.1.0",
+    "description": "Tag-based cocktail recipe finder.  Built on Angular, Express, and Mongodb",
+    "main": "index.js",
+    "scripts": {
+        "setup-deps": "concurrently \"cd ./frontend && npm i\" \"cd ./api && npm i\"",
+        "build": "cd ./api && npm run build",
+        "start": "cd ./api && npm run start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/relativeabsolute/drinxologist.git"
+    },
+    "keywords": [
+        "angular",
+        "express",
+        "mongodb",
+        "mongo",
+        "cocktails",
+        "typescript"
+    ],
+    "dependencies": {
+        "concurrently": "^6.0.0"
+    },
+    "author": "Johan Burke",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/relativeabsolute/drinxologist/issues"
+    },
+    "homepage": "https://github.com/relativeabsolute/drinxologist#readme"
 }
