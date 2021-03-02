@@ -6,6 +6,8 @@ import { drinksPublicApi } from './routes';
 const app = express();
 const port = process.env.PORT ?? 8080;
 
+app.use(express.static('./dist/public'));
+
 drinksPublicApi.register(app);
 
 app.listen(port, () => {

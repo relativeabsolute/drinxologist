@@ -6,6 +6,7 @@
     "scripts": {
         "setup-deps": "concurrently \"cd ./frontend && npm i\" \"cd ./api && npm i\"",
         "build": "cd ./api && npm run build",
+        "build-local": "cd ./api && npm run build-local",
         "start": "cd ./api && npm run start"
     },
     "repository": {
